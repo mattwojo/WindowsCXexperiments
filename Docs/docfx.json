@@ -2,6 +2,20 @@
   "build": {
     "content": [
       {
+        "src": "azure",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "bizapps",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -22,6 +36,7 @@
       {
         "files": [
           "**/*.png",
+          "**/*.svg",
           "**/*.jpg"
         ],
         "exclude": [
@@ -37,7 +52,8 @@
     "globalMetadata": {
       "breadcrumb_path": "/windows/tcplayground/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "mattwojo/WindowsCXexperiments"
     },
     "fileMetadata": {},
     "template": [],
